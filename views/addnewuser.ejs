@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+<h1><%= title %></h1>
+<p>Welcome to <%= title %></p>
+</body>
+<form action="addUser" method="post" name="adduser">
+    <input type="text" placeholder="username" name="username"/>
+    <input type="text" placeholder="email" name="email"/>
+
+    <button type="submit">Submit</button>
+</form>
+</html>
